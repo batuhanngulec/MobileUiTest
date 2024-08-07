@@ -1,4 +1,4 @@
-# MobilUiTest
+# MobileUiTest
 
 This project is an automated testing framework created using Cypress for mobile browsers. It is designed to test the mobile user experience on e-commerce sites.
 
@@ -10,6 +10,10 @@ This project includes four main testing categories:
 - **product-ui**: Product control tests. These tests verify the listing, visibility, and accuracy of product information.
 - **add-to-cart**: Tests for adding products to the cart and verifying the correctness of the cart page. It also checks if products are successfully added to the cart.
 - **create-account**: Tests for user account creation. This includes both successful and unsuccessful account creation scenarios.
+
+### Mobile Viewport Configuration
+
+For mobile browser testing, this project utilizes `cy.viewport('iphone-x')` to simulate the mobile device environment. This ensures that the tests accurately reflect the user experience on mobile devices.
 
 ## Test Case Examples
 
